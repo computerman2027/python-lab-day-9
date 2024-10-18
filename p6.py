@@ -17,11 +17,11 @@ while(True):
     elif(ch==4):
         m=int(input("Enter m :"))
         n=int(input("Enter n :"))
-        print("f(n,r) =",f4(m,n))
+        print("f(m,n) =",f4(m,n))
     elif(ch==5):
         m=int(input("Enter m :"))
         x=int(input("Enter x :"))
-        print("f(n,r) =",b(m,x))
+        print("f(m,x) =",b(m,x))
     elif(ch==6):
         print("end")
         break
